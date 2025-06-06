@@ -26,7 +26,7 @@ const LoginPage: React.FC = () => {
     setError('');
     setIsLoading(true);
 
-    try {
+    try { 
       const success = await login(email, password);
       if (success) {
         navigate('/');

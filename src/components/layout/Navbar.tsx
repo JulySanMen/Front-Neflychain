@@ -57,7 +57,6 @@ const Navbar: React.FC = () => {
               )}
             </button>
           </div>
-
           {/* Desktop menu */}
           <div className="hidden md:flex md:items-center md:space-x-4">
             {!isSearchOpen ? (

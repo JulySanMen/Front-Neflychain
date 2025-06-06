@@ -29,7 +29,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       setUser(JSON.parse(storedUser));
       setIsAuthenticated(true);
     }
-  }, []);
+  }, []); 
 
   const login = async (email: string, password: string): Promise<boolean> => {
     // Simple validation - in a real app, this would be an API call
